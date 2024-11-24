@@ -1,0 +1,43 @@
+[{
+        "title": "Quiz AWS",
+        "image": "./projectImages/quizaws.jpg",
+        "description": "Quiz AWS is a web application that contains a bank of questions on AWS Practitioner to test technical knowledge.",
+        "technologies": "Vue.js | node | Javascript | Mysql | Bootstrap",
+        "github": "https://github.com/mouad5-bot/QuizAWS",
+        "deployed": "",
+        "bgcolor": "#f37737",
+        "id": "1"
+    },
+    {
+        "title": "AFTAS",
+        "image": "./projectImages/aftas.png",
+        "technologies": "Java | Spring | Angular | Docker | Postgres ",
+        "description": "Aftas is a web application designed to modernize the management of competitions. It allows for efficient administration by the club and effective management by the jury, providing a responsive and user-friendly platform.",
+        "github": "https://github.com/mouad5-bot/Aftas_docker",
+        "deployed": "",
+        "bgcolor": "#29cbe0",
+        "id": "2"
+    },
+    {
+        "title": "Come2Play",
+        "image": "./projectImages/c2p.jpg",
+        "technologies": "Java | Spring | Angular | Docker | Postgres",
+        "description": "Come2Play is a web application that allows users to search for, book, and review football fields.",
+        "github": "https://github.com/mouad5-bot/end-of-studies-project",
+        "deployed": "https://drive.google.com/file/d/1_atUXTM-L9r4NccsrPaaWqPyNu37ftwH/view",
+        "bgcolor": "#6c4bf4",
+        "id": "3"
+    },
+    {
+        "title": "Chess",
+        "image": "./projectImages/chess.png",
+        "technologies": "Java | Postgres | UML",
+        "description": "Chess is played on an 8x8 board, with 16 pieces per player: 8 pawns, 2 rooks, 2 knights, 2 bishops, 1 queen, and 1 king.",
+        "github": "https://github.com/mouad5-bot/Chess",
+        "deployed": "",
+        "bgcolor": "#f85781",
+        "id": "4"
+    }
+
+
+]
