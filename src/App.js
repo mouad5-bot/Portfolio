@@ -4,11 +4,11 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 function App() {
   const personalDetails = {
     name: "MOUAD FIFEL",
-    location: "Agdal, RABAT",
-    email: "mouad.fifel5@gmail.com",
-    availability: "Open for work",
+    location: "Agadir, Maroc ",
+    email: "mouad.fifel.contact@gmail.com",
+    availability: "Can start one month after my application is accepted",
     brand:
-    "I graduated with a Bachelor's degree in Mathematics and Computer Science from Multidisciplinary Faculty of Ouarzazate. I completed two years of training at YouCode School and recently finished an end-of-studies internship at Cegedim Morocco. I'm open to new opportunities as a full-stack developer, whether it's an internship, freelance work, or a full-time position.",
+    "I graduated with a Bachelor's degree in Mathematics and Computer Science from the Multidisciplinary Faculty of Ouarzazate. I also completed two years of training at YouCode School. I started my career at Cegedim as a Full-Stack Developer intern and later transitioned to a DevOps role. Today, I am working as a DevOps Engineer, with more than two years of overall experience at Cegedim, contributing to software development, automation, CI/CD, and infrastructure management.",
   };
 
   return (

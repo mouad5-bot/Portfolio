@@ -1,9 +1,9 @@
-import aboutMeImg from "../images/aboutm.jpeg";
+import aboutMeImg from "../images/MOUAD_FIFEL.png";
 import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import resume from "../pages/about/mouad_cv.pdf";
+import resume from "../assets/mfifel-cv.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
@@ -50,7 +50,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
           transition={{ duration: 0.4, ease: "easeInOut" }}
         >
           <div className="contentContainer">
-            <h5>Full Stack Web Developer</h5>
+            <h5>Consultant DevOps</h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>

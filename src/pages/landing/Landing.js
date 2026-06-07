@@ -55,7 +55,7 @@ const Landing = ({ name }) => {
                 .typeString("I'm a Developer")
                 .pauseFor(1500)
                 .deleteChars(9)
-                .typeString("Designer")
+                .typeString("Devops Consultant")
                 .pauseFor(1500)
                 .deleteAll()
                 .typeString("Bringing your ideas to life")

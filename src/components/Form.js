@@ -15,7 +15,6 @@ const Form = () => {
     email: "",
     subject: "",
     message: "",
-    access_key: "4f412a8f-0a11-4ba9-8e37-e12661f36602",
   });
 
   const handleChange = (e) => {
@@ -28,29 +27,31 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const data = JSON.stringify(formData);
-
-    fetch("https://formspree.io/f/xldrakdn", {
+    fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
       },
-      body: data,
+      body: JSON.stringify({
+        access_key: process.env.REACT_APP_WEB3FORMS_ACCESS_KEY,
+        ...formData,
+      }),
     })
       .then((res) => res.json())
       .then((data) => {
-        setSuccess(true);
-        setFormData({
-          ...formData,
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
-        });
-        setTimeout(() => {
-          setSuccess(false);
-        }, 3000);
+        if (data.success) {
+          setSuccess(true);
+          setFormData({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
+          setTimeout(() => {
+            setSuccess(false);
+          }, 3000);
+        }
       })
       .catch((err) => console.log(err));
   };
